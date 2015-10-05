@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment 4</title>
+    <link rel="stylesheet" type="text/css" href="Styles.css"/>
+    <script type="text/javascript" src="JSFunctions.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+</head>
+<body id="thebody">
+
+    <div id="header-wrapper">
+        <div id="main-header"></div>
+    </div>
+    
+    <form>
+        Name: <input type="text" id="name" /><br /><br />
+        Character: <input type="text" id="character" /><br /><br />
+        Number Of Times: <input type="text" id="num-times" /><br /><br />
+
+        <input type="button" value="Force Get" onclick="forceGetFunc()" />
+        <input type="button" value="Force Push" onclick="forcePushFunc()" />
+        <input type="button" value="Force Sight" onclick="forceSightFunc()" />
+        <input type="button" value="Force Delete" onclick="forceDeleteFunc()" />
+    </form>
+
+    <br /><br /><br />
+    <div id="result"></div>
+
+</body>
+</html>

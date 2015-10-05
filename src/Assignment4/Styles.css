@@ -1,0 +1,14 @@
+﻿body {
+    height: 1200px;
+}
+
+#header-wrapper {
+    height: 50px;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    background-color: azure;
+    opacity: 0.8;
+    position:fixed;
+}
